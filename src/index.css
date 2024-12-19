@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-primary: #262626;
+    --color-bg-secondary: #262626;
+    --color-bg-hover: #393939;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #707070;
+
+    --font-primary: "font-inter";
+    --text-primary: "12px";
+    --text-secondary: "13px";
+    --text-title: "20px";
+    --text-top: "16px";
+    --text-meta : "8px"
+    --text-title : "30px"
+
+    --icon-height :"25px"
+    --icon-width : "25px"
+
+    --profile-height : "50px"
+    --prifile-width :"50px"
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+.slick-track{
+  display: flex;
+  gap: 5px;
+}
